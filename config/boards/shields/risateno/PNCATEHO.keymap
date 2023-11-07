@@ -14,18 +14,18 @@
 #define RSE 2
 #define ADJ 3
 
-&lt { quick_tap_ms = <200>; };
-&mt { quick_tap_ms = <200>; };
+&lt {quick_tap_ms = <200>; };
+&mt {quick_tap_ms = <200>; };
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default {
-           bindings = <
+            bindings = <
             &kp K_VOLUME_UP   &kp K_CUT &kp K_COPY &kp K_PASTE
             &kp K_VOLUME_DOWN &none     &none      &none
-                                                   &mo 1 &mo 2
+            &mo 1 &mo 2
             >;
         };
         
