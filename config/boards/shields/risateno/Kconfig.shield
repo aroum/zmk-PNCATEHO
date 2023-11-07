@@ -5,4 +5,4 @@
  #
 
 config SHIELD_PNCATEHO
-    def_bool $(shields_list_contains,risateno)
+    def_bool $(shields_list_contains,PNCATEHO)
