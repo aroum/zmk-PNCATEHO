@@ -1,5 +1,16 @@
-# ZMK PNCATEHO
+# ZMK PNCATEHO Layout Firmware
 
-ZMK config for single [PNCATEHO]([url](https://github.com/aroum/PNCATEHO)https://github.com/aroum/PNCATEHO)
+Use branches to select a keyboard.
 
-Thanks [@doctorcooper](https://github.com/doctorcooper) for the help.
+[Hardware repository](https://github.com/aroum/PNCATEHO)
+
+# Layout
+
+![PNCATEHO_dual_KLE](pics/PNCATEHO_dual_KLE.png)
+
+# Pins and fingers
+
+![pin_fingers_layout](pics/pin_fingers_layout.png)
+
+
+
