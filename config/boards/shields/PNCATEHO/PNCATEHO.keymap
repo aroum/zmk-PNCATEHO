@@ -19,22 +19,22 @@
 #define TLR 1 // TOP
 #define TLM 2 // TOP
 #define TLI 3 // TOP
-#define BLP 4 // BOTTOM
-#define BLR 5 // BOTTOM
-#define BLM 6 // BOTTOM
-#define BLI 7 // BOTTOM
-#define LOT 8 // O-THUMB
-#define LIT 9 // I-THUMB
+#define BLP 8 // BOTTOM
+#define BLR 9 // BOTTOM
+#define BLM 10 // BOTTOM
+#define BLI 11 // BOTTOM
+#define LOT 16 // O-THUMB
+#define LIT 17 // I-THUMB
 
 // RIGHT SIDE
-#define TRP 10 // TOP
-#define TRR 11 // TOP
-#define TRM 12 // TOP
-#define TRI 13 // TOP
-#define BRP 14 // BOTTOM
-#define BRR 15 // BOTTOM
-#define BRM 16 // BOTTOM
-#define BRI 17 // BOTTOM
+#define TRP 4 // TOP
+#define TRR 5 // TOP
+#define TRM 6 // TOP
+#define TRI 7 // TOP
+#define BRP 12 // BOTTOM
+#define BRR 13 // BOTTOM
+#define BRM 14 // BOTTOM
+#define BRI 15 // BOTTOM
 #define ROT 18 // O-THUMB
 #define RIT 19 // I-THUMB
 
