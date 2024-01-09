@@ -76,7 +76,7 @@ combo_r_bspc { \
 	layers = <COMBO_LAYERS>; \
 };
 //    (name,   press,      inner,         out,         both,          chord,       chord)
-TCOMBO(B,      &kp B,      &kp LS(B),     &kp LEFT,    &kp LS(LEFT),  TRP,         TRP)
+TCOMBO(B,      &kp B,      &kp LS(B),     &kp LEFT,    &kp LS(LEFT),  TLP,         TRP)
 TCOMBO(F,      &kp F,      &kp LS(F),     &kp UP,      &kp LS(UP),    TLR,         TRR)
 TCOMBO(T,      &kp T,      &kp LS(T),     &kp DOWN,    &kp LS(DOWN),  TLM,         TRM)
 TCOMBO(J,      &kp J,      &kp LS(J),     &kp RIGHT,   &kp LS(RIGHT), TLI,         TRI)
