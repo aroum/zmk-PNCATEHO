@@ -14,7 +14,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: PNCATEHO_left
+    shield: PNCATEHO
   # - board: nice_nano_v2
   #   shield: PNCATEHO_right  
   # - board: nice_nano_v2
