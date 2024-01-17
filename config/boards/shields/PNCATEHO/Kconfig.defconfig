@@ -12,5 +12,5 @@ endif
 
 if SHIELD_PNCATEHO_LEFT || SHIELD_PNCATEHO_RIGHT
 config ZMK_SPLIT
-    default y
+    default n
 endif
