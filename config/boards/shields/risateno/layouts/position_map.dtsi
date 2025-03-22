@@ -1,8 +1,0 @@
-/ {
-        layouts_pncateno_position_map: layouts_pncateno_map {
-                compatible = "zmk,physical-layout-position-map";
-
-                complete;
-        };
-};
-
