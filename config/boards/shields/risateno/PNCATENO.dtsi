@@ -8,7 +8,7 @@
 #include "PNCATENO-layouts.dtsi"
 #include <dt-bindings/led/led.h>
 
-&PNCATENO_layouts {
+&PNCATENO_layout {
     transform = <&default_transform>;
 };
 / {
