@@ -1,9 +1,12 @@
 #include <physical_layouts.dtsi>
 
+#include "position_map.dtsi"
+
 / {
-    PNCATENO_layout: PNCATENO_layout_0 {
+    default_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default";
+
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
         keys  //                     w   h    x    y     rot    rx    ry
@@ -22,12 +25,9 @@
     };
 };
 
-        PNCATENO_position_map{
-        compatible = "zmk,physical-layout-position-map";
-        complete;
-
+&layouts_pncateno_position_map{
         default {
-                physical-layout = <&PNCATENO_layout>;
+                physical-layout = <&default_layout>;
                 positions
                 = < 0  1  2  3 >
                 , < 4  5  6  7 >

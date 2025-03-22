@@ -6,3 +6,8 @@ url: https://github.com/aroum/PNCATEHO
 requires: [pro_micro]
 features:
   - keys
+  - underglow
+  - studio
+outputs:
+  - usb
+  - ble

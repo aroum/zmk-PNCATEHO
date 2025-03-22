@@ -5,19 +5,18 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "PNCATENO-layouts.dtsi"
+#include "layouts/default-layouts.dtsi"
 #include <dt-bindings/led/led.h>
 
-&PNCATENO_layout {
-    transform = <&default_transform>;
-};
+&default_layout { transform = <&default_transform>; };
+
 / {
     model = "pncateno";
     compatible = "aroum,pncateno";
 
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &PNCATENO_layout;
+        zmk,physical-layout = &default_layout;
 	};
 
 default_transform: keymap_transform_0 {
