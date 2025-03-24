@@ -2,7 +2,7 @@
 #include "PNCATENO-layout.dtsi"
 
 &PNCATENO_layout { 
-    transform = <&default_transform> 
+    transform = <&default_transform>;
 };
 
 / {
