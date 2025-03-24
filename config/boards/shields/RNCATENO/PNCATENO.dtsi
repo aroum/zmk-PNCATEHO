@@ -8,8 +8,7 @@
 #include <dt-bindings/led/led.h>
 #include "PNCATENO-layouts.dtsi"
 
-&pncateno_layout { 
-    kscan = <&kscan0>;
+&PNCATENO_layout { 
     transform = <&default_transform> 
 };
 
@@ -20,7 +19,7 @@
 
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &pncateno_layout;
+        zmk,physical-layout = &PNCATENO_layout;
 	};
 
 default_transform: keymap_transform_0 {
