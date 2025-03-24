@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/led/led.h>
-#include "PNCATENO-layouts.dtsi"
+#include "PNCATENO-layout.dtsi"
 
 &PNCATENO_layout { 
     transform = <&default_transform> 
