@@ -1,6 +1,10 @@
 #include <physical_layouts.dtsi>
 
-/ {
+pncateno_position_map: pncateno_position_map {
+    compatible = "zmk,position-map";
+};
+
+&{ // корневой узел
     PNCATENO_layout: PNCATENO_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default";
@@ -18,17 +22,16 @@
             , <&key_physical_attrs 100 100  300  100       0     0     0>
             , <&key_physical_attrs 100 100  300  200       0     0     0>
             , <&key_physical_attrs 100 100  400  200       0     0     0>
-            
             ;
     };
 };
 
-&pncateno_position_map{
-        origin {
-                physical-layout = <&PNCATENO_layout>;
-                positions
-                = < 0  1  2  3 >
-                , < 4  5  6  7 >
-                , < 8 9 >;
-        };
+&pncateno_position_map {
+    origin {
+        physical-layout = <&PNCATENO_layout>;
+        positions =
+            < 0 1 2 3 >,
+            < 4 5 6 7 >,
+            < 8 9 >;
+    };
 };
