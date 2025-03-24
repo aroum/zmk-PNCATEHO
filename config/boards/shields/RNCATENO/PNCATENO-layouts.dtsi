@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    RNCATENO_layout: RNCATENO_layout_0 {
+    PNCATENO_layout: PNCATENO_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default";
         kscan = <&kscan0>;
@@ -25,7 +25,7 @@
 
 &PNCATENO_position_map{
         origin {
-                physical-layout = <&RNCATENO_layout>;
+                physical-layout = <&PNCATENO_layout>;
                 positions
                 = < 0  1  2  3 >
                 , < 4  5  6  7 >
