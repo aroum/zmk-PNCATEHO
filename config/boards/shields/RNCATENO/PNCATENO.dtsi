@@ -1,11 +1,4 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <dt-bindings/led/led.h>
 #include "PNCATENO-layout.dtsi"
 
 &PNCATENO_layout { 
@@ -35,7 +28,7 @@ RC(1,0) RC(1,1) RC(1,2) RC(1,3)
     };
 
     kscan0: kscan_0 {
-        compatible = "zmk,kscan-gpio-matrix";
+        compatible = "zmk,kscan-gpio-direct";
         label = "KSCAN";
 
         input-gpios
