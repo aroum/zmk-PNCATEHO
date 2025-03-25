@@ -1,7 +1,3 @@
 # ZMK PNCATEHO
 
-ZMK config for single [PNCATEHO]([url](https://github.com/aroum/PNCATEHO)https://github.com/aroum/PNCATEHO). This config is for using PNCATEHO as a macropad.
-
-Use branches to select a keyboard.
-
-Thanks [@doctorcooper](https://github.com/doctorcooper) for the help.
+[IMG_7197 1](https://github.com/user-attachments/assets/b47b1f1e-fd94-4312-8272-11f0bafc236b)
