@@ -1,3 +1,3 @@
 # ZMK PNCATEHO
 
-![IMG_7197 1](https://github.com/user-attachments/assets/fbea24a5-d0e3-47d0-b694-41247cdfa71a)
+![426308367-fbea24a5-d0e3-47d0-b694-41247cdfa71a](https://github.com/user-attachments/assets/e753e9ee-22c9-4cd5-9f89-a06a0c278bdf)
