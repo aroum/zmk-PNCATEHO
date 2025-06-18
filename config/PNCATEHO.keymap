@@ -21,6 +21,9 @@
             bindings = <
 &none  &none  &none  &none
 &none  &none  &none  &none
+&none  &none  &none  &none
+&none  &none  &none  &none
+                     &mo 1  &mo 2
                      &mo 1  &mo 2
             >;
         };
@@ -30,6 +33,9 @@
             bindings = <
 &none  &none  &none  &none
 &none  &none  &none  &none
+&none  &none  &none  &none
+&none  &none  &none  &none
+                     &trans  &mo 3
                      &trans  &mo 3
             >;
         };
@@ -39,6 +45,9 @@
             bindings = <
 &none  &none  &none  &none
 &none  &none  &none  &none
+&none  &none  &none  &none
+&none  &none  &none  &none
+                     &mo 3  &trans
                      &mo 3  &trans
             >;
         };
@@ -48,6 +57,9 @@
             bindings = <
 &bootloader  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &none
 &bt BT_CLR   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2
+&bootloader  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &none
+&bt BT_CLR   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2
+                                               &none         &none
                                                &none         &none
             >;
         };
