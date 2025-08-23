@@ -8,8 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
-&lt { quick_tap_ms = <200>; };
-
 &mt { quick_tap_ms = <200>; };
 
 / {
@@ -20,11 +18,11 @@
             label = "default";
             bindings = <
 &kp N1  &kp N2  &kp N3  &kp N4
+&kp none  &kp N6  &kp N7  &kp N8
 &kp N5  &kp N6  &kp N7  &kp N8
-&kp N1  &kp N2  &kp N3  &kp N4
-&kp N5  &kp N6  &kp N7  &kp N8
+&kp none  &kp none  &kp none  &kp none
                      &kp N9  &kp N0
-                     &kp N9  &kp N0
+                     &kp none  &kp none
             >;
         };
 
@@ -62,6 +60,63 @@
                                                &none         &none
                                                &none         &none
             >;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        combo_n1 {
+            timeout-ms = <30>;
+            key-positions = <0 4>;
+            bindings = <&kp EXCL>;
+        };
+        combo_n2 {
+            timeout-ms = <30>;
+            key-positions = <1 5>;
+            bindings = <&kp AT>;
+        };
+        combo_n3 {
+            timeout-ms = <30>;
+            key-positions = <2 6>;
+            bindings = <&kp HASH>;
+        };
+        combo_n4 {
+            timeout-ms = <30>;
+            key-positions = <3 7>;
+            bindings = <&kp DLLR>;
+        };
+
+        combo_n5 {
+            timeout-ms = <30>;
+            key-positions = <8 12>;
+            bindings = <&kp PRCNT>;
+        };
+        combo_n6 {
+            timeout-ms = <30>;
+            key-positions = <9 13>;
+            bindings = <&kp PRCNT>;
+        };
+        combo_n7b {
+            timeout-ms = <30>;
+            key-positions = <10 14>;
+            bindings = <&kp AMPS>;
+        };
+        combo_n8b {
+            timeout-ms = <30>;
+            key-positions = <11 15>;
+            bindings = <&kp STAR>;
+        };
+
+        combo_n9 {
+            timeout-ms = <30>;
+            key-positions = <16 18>;
+            bindings = <&kp LPAR>;
+        };
+        combo_n0 {
+            timeout-ms = <30>;
+            key-positions = <17 19>;
+            bindings = <&kp RPAR>;
         };
     };
 };
