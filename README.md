@@ -5,5 +5,7 @@
 
 
 LED0 = D2
+
 LED1 = D3
+
 LED2 = D4
