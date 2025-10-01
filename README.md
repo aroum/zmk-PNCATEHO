@@ -4,8 +4,8 @@
 
 
 
-LED0 = D2
+LED0 = D4 = p0.22
 
-LED1 = D3
+LED1 = D5 = p0.22
 
-LED2 = D4
+LED2 = D6 = p1.00
