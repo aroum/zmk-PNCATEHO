@@ -1,8 +1,0 @@
-file_format: "1"
-id: PNCATEHO
-name: PNCATEHO 
-type: shield
-url: https://github.com/aroum/PNCATEHO
-requires: [pro_micro]
-features:
-  - keys
