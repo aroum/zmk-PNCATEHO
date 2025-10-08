@@ -1,4 +1,4 @@
-# ZMK PNCATEHO Layout Firmware
+# ZMK PNCATEHO Welcome Layout Firmware
 
 Use branches to select a keyboard.
 
@@ -7,11 +7,3 @@ Use branches to select a keyboard.
 # Layout
 
 ![PNCATEHO_dual_KLE](pics/PNCATEHO_dual_KLE.png)
-
-# Pins and fingers
-
-![pin_fingers_layout](pics/pin_fingers_layout.png)
-
-
-
-
